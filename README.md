@@ -2,7 +2,7 @@
 
 News Wall是一個新聞聚合的APP，
 於2015年5月左右在APP Store上架，
-因為News Wall其中使用的一項服務KIMONO(https://www.kimonolabs.com/)賣給了Palantir(註1)，
+因為News Wall其中使用的一項服務KIMONO(https://www.kimonolabs.com/) 賣給了Palantir(註1)，
 將在2016年2月底停止對外公開服務，
 所以連帶使得News Wall無法繼續提供服務即日將從APP Stroe下線，
 因此Ryan將程式碼公開給有需要的朋友參考，
