@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		225093AB8004EDA68B8CE563 /* KVNProgressConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 8088E95432DD00072BE8D91E /* KVNProgressConfiguration.m */; };
+		23537BFC546CB77CC526328B /* KVNProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 921CC66FF5350C92CD77B29B /* KVNProgress.m */; };
+		29CA19FD47A2939A22B6DE20 /* UIImage+KVNEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = 72EC1BD43F36F5635FA6D31D /* UIImage+KVNEmpty.m */; };
+		2F0DDF3B082E9FEDD72100A4 /* UIImage+KVNEmpty.h in Headers */ = {isa = PBXBuildFile; fileRef = 541C3B78436228B55ACB7E7E /* UIImage+KVNEmpty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A9628FEA20BB1A42ECAE084 /* KVNProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = 5896A185B1D2A22FD107008E /* KVNProgress.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3ED9F77C4A8D1A3A67F86F41 /* Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A24FE0F377CC668F4BDF8A4B /* Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		458EE35A40C882812D8BBF31 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD844357D91898F4FC80FBF0 /* Pods-dummy.m */; };
+		493130BD7DDE505653EED35E /* Pods-KVNProgress-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6D5F1AB8E31ACA5BFAF50A2 /* Pods-KVNProgress-dummy.m */; };
+		49BFA99D0286607FD73FCF84 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9D61F007226A90A20F3E6F9 /* QuartzCore.framework */; };
+		4AC3E7E3EE41FD10CEDA8469 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A37A22DB402CED756E37C8E0 /* Foundation.framework */; };
+		677E10A0B4674871F217FC19 /* Pods-KVNProgress-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 225E0462AFAAB18C44532A53 /* Pods-KVNProgress-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E32BC37FB286B005D16668E /* KVNProgressConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 158F284CF134DA65A90A68E6 /* KVNProgressConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B37D79208777CC200429038 /* UIImage+KVNImageEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = A465EBD245B438A201434490 /* UIImage+KVNImageEffects.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80C7DF1D2C52DC0ACED11E81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A37A22DB402CED756E37C8E0 /* Foundation.framework */; };
+		88FF3DE5FCDCE0F7BDD80F7E /* KVNProgressView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20C978FD2F31B020104FE57A /* KVNProgressView.xib */; };
+		8DBBAA8E342B35EB151CBDF7 /* UIColor+KVNContrast.h in Headers */ = {isa = PBXBuildFile; fileRef = 07A7E9B51EDE2B0C0C812DA5 /* UIColor+KVNContrast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AD0F005EF73A81E00BC17F5 /* UIColor+KVNContrast.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF57096A1149CB795CC4F79 /* UIColor+KVNContrast.m */; };
+		9F65B13C2E5B91B5817BB0A3 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 576F1164F976E23AE542228D /* GLKit.framework */; };
+		FA10045A47421CADD3D9FD85 /* UIImage+KVNImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = F21981065C4B57EEB28BF86C /* UIImage+KVNImageEffects.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F73343730E0D1D88E14F416C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E52E1CBC05DB2CD0EF343D2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCBF6D228A702F7A74735974;
+			remoteInfo = "Pods-KVNProgress";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03ADDB57B1D42E680909F163 /* Pods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Pods.modulemap; sourceTree = "<group>"; };
+		07A7E9B51EDE2B0C0C812DA5 /* UIColor+KVNContrast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+KVNContrast.h"; path = "KVNProgress/Categories/UIColor+KVNContrast.h"; sourceTree = "<group>"; };
+		0F7994379B5D0472DA044A3F /* KVNProgress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KVNProgress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		158F284CF134DA65A90A68E6 /* KVNProgressConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVNProgressConfiguration.h; path = KVNProgress/Classes/KVNProgressConfiguration.h; sourceTree = "<group>"; };
+		1AF57096A1149CB795CC4F79 /* UIColor+KVNContrast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+KVNContrast.m"; path = "KVNProgress/Categories/UIColor+KVNContrast.m"; sourceTree = "<group>"; };
+		20C978FD2F31B020104FE57A /* KVNProgressView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = KVNProgressView.xib; path = KVNProgress/Resources/KVNProgressView.xib; sourceTree = "<group>"; };
+		225E0462AFAAB18C44532A53 /* Pods-KVNProgress-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KVNProgress-umbrella.h"; sourceTree = "<group>"; };
+		28C115EC81318AF1A8573B64 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2A079EC0306F95756DBF9F41 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		2ACC271D9DBB65C99685D846 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		316B38557D3166BF55B41519 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		4182BF05022CFC11A493ECF4 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		541C3B78436228B55ACB7E7E /* UIImage+KVNEmpty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+KVNEmpty.h"; path = "KVNProgress/Categories/UIImage+KVNEmpty.h"; sourceTree = "<group>"; };
+		576F1164F976E23AE542228D /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/GLKit.framework; sourceTree = DEVELOPER_DIR; };
+		5896A185B1D2A22FD107008E /* KVNProgress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVNProgress.h; path = KVNProgress/Classes/KVNProgress.h; sourceTree = "<group>"; };
+		5DE9133E42382CFD0B0B67B2 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5F0038128A3E4081F89E0C58 /* Pods-KVNProgress.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-KVNProgress.modulemap"; sourceTree = "<group>"; };
+		5F4BCECDBD112BC03AF66E4A /* Pods-KVNProgress-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KVNProgress-prefix.pch"; sourceTree = "<group>"; };
+		72EC1BD43F36F5635FA6D31D /* UIImage+KVNEmpty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+KVNEmpty.m"; path = "KVNProgress/Categories/UIImage+KVNEmpty.m"; sourceTree = "<group>"; };
+		7D51038BD896B25090669B04 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8088E95432DD00072BE8D91E /* KVNProgressConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KVNProgressConfiguration.m; path = KVNProgress/Classes/KVNProgressConfiguration.m; sourceTree = "<group>"; };
+		921CC66FF5350C92CD77B29B /* KVNProgress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KVNProgress.m; path = KVNProgress/Classes/KVNProgress.m; sourceTree = "<group>"; };
+		9292AFC100C562359558ED02 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		A24FE0F377CC668F4BDF8A4B /* Pods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-umbrella.h"; sourceTree = "<group>"; };
+		A37A22DB402CED756E37C8E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A465EBD245B438A201434490 /* UIImage+KVNImageEffects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+KVNImageEffects.h"; path = "KVNProgress/Categories/UIImage+KVNImageEffects.h"; sourceTree = "<group>"; };
+		AD844357D91898F4FC80FBF0 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		B9D61F007226A90A20F3E6F9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		C99ED7EF09277E6D4C97557D /* Pods-KVNProgress-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KVNProgress-Private.xcconfig"; sourceTree = "<group>"; };
+		DAF61D0A33D1B4E68158949A /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0739990F07941580F38C1F6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F21981065C4B57EEB28BF86C /* UIImage+KVNImageEffects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+KVNImageEffects.m"; path = "KVNProgress/Categories/UIImage+KVNImageEffects.m"; sourceTree = "<group>"; };
+		F46078755EBD4C6DDF915E41 /* Pods-KVNProgress.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KVNProgress.xcconfig"; sourceTree = "<group>"; };
+		F6D5F1AB8E31ACA5BFAF50A2 /* Pods-KVNProgress-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KVNProgress-dummy.m"; sourceTree = "<group>"; };
+		F97DAA58CD335B1E6D840A35 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0FF4FCD803609F00DCA5416A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AC3E7E3EE41FD10CEDA8469 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F416E4F99E829B9875ABE2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80C7DF1D2C52DC0ACED11E81 /* Foundation.framework in Frameworks */,
+				9F65B13C2E5B91B5817BB0A3 /* GLKit.framework in Frameworks */,
+				49BFA99D0286607FD73FCF84 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25598D86E23FA5B942D24D34 /* KVNProgress */ = {
+			isa = PBXGroup;
+			children = (
+				5896A185B1D2A22FD107008E /* KVNProgress.h */,
+				921CC66FF5350C92CD77B29B /* KVNProgress.m */,
+				158F284CF134DA65A90A68E6 /* KVNProgressConfiguration.h */,
+				8088E95432DD00072BE8D91E /* KVNProgressConfiguration.m */,
+				07A7E9B51EDE2B0C0C812DA5 /* UIColor+KVNContrast.h */,
+				1AF57096A1149CB795CC4F79 /* UIColor+KVNContrast.m */,
+				541C3B78436228B55ACB7E7E /* UIImage+KVNEmpty.h */,
+				72EC1BD43F36F5635FA6D31D /* UIImage+KVNEmpty.m */,
+				A465EBD245B438A201434490 /* UIImage+KVNImageEffects.h */,
+				F21981065C4B57EEB28BF86C /* UIImage+KVNImageEffects.m */,
+				D6A17FEDB39B75781861E735 /* Resources */,
+				C3D32A1379993C223506D8FC /* Support Files */,
+			);
+			path = KVNProgress;
+			sourceTree = "<group>";
+		};
+		268168831FBDED07A022102C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				30B4D8FD6826BDDCA9DE1D97 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2DE5C114DBFA00D620E5FC30 = {
+			isa = PBXGroup;
+			children = (
+				28C115EC81318AF1A8573B64 /* Podfile */,
+				F6A4CADF9DEADB160DD712FF /* Frameworks */,
+				E998EC67185B9C425CA8364E /* Pods */,
+				7BFDF78C013AFB895F728BBD /* Products */,
+				268168831FBDED07A022102C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		30B4D8FD6826BDDCA9DE1D97 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0739990F07941580F38C1F6 /* Info.plist */,
+				03ADDB57B1D42E680909F163 /* Pods.modulemap */,
+				5DE9133E42382CFD0B0B67B2 /* Pods-acknowledgements.markdown */,
+				4182BF05022CFC11A493ECF4 /* Pods-acknowledgements.plist */,
+				AD844357D91898F4FC80FBF0 /* Pods-dummy.m */,
+				2ACC271D9DBB65C99685D846 /* Pods-environment.h */,
+				316B38557D3166BF55B41519 /* Pods-frameworks.sh */,
+				2A079EC0306F95756DBF9F41 /* Pods-resources.sh */,
+				A24FE0F377CC668F4BDF8A4B /* Pods-umbrella.h */,
+				9292AFC100C562359558ED02 /* Pods.debug.xcconfig */,
+				F97DAA58CD335B1E6D840A35 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		5FA8B85F42DD091F21A48048 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A37A22DB402CED756E37C8E0 /* Foundation.framework */,
+				576F1164F976E23AE542228D /* GLKit.framework */,
+				B9D61F007226A90A20F3E6F9 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7BFDF78C013AFB895F728BBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F7994379B5D0472DA044A3F /* KVNProgress.framework */,
+				DAF61D0A33D1B4E68158949A /* Pods.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3D32A1379993C223506D8FC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D51038BD896B25090669B04 /* Info.plist */,
+				5F0038128A3E4081F89E0C58 /* Pods-KVNProgress.modulemap */,
+				F46078755EBD4C6DDF915E41 /* Pods-KVNProgress.xcconfig */,
+				C99ED7EF09277E6D4C97557D /* Pods-KVNProgress-Private.xcconfig */,
+				F6D5F1AB8E31ACA5BFAF50A2 /* Pods-KVNProgress-dummy.m */,
+				5F4BCECDBD112BC03AF66E4A /* Pods-KVNProgress-prefix.pch */,
+				225E0462AFAAB18C44532A53 /* Pods-KVNProgress-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-KVNProgress";
+			sourceTree = "<group>";
+		};
+		D6A17FEDB39B75781861E735 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				20C978FD2F31B020104FE57A /* KVNProgressView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E998EC67185B9C425CA8364E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25598D86E23FA5B942D24D34 /* KVNProgress */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F6A4CADF9DEADB160DD712FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FA8B85F42DD091F21A48048 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7A1643654F136FFB4AA55453 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ED9F77C4A8D1A3A67F86F41 /* Pods-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1A9AD3D18867450C1A0E1D9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A9628FEA20BB1A42ECAE084 /* KVNProgress.h in Headers */,
+				6E32BC37FB286B005D16668E /* KVNProgressConfiguration.h in Headers */,
+				677E10A0B4674871F217FC19 /* Pods-KVNProgress-umbrella.h in Headers */,
+				8DBBAA8E342B35EB151CBDF7 /* UIColor+KVNContrast.h in Headers */,
+				2F0DDF3B082E9FEDD72100A4 /* UIImage+KVNEmpty.h in Headers */,
+				7B37D79208777CC200429038 /* UIImage+KVNImageEffects.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B9539DA7EB81CFFB14787A28 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C331845E11DDC386F009AB0 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				7CDE1E9E2AEE69F213FD6936 /* Sources */,
+				0FF4FCD803609F00DCA5416A /* Frameworks */,
+				7A1643654F136FFB4AA55453 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A2C693D39A7D888BB48C8DF /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = DAF61D0A33D1B4E68158949A /* Pods.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DCBF6D228A702F7A74735974 /* Pods-KVNProgress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 151C25FFE7075028723D9B2E /* Build configuration list for PBXNativeTarget "Pods-KVNProgress" */;
+			buildPhases = (
+				72B4741A79D5D8BC1701FAFA /* Sources */,
+				1F416E4F99E829B9875ABE2B /* Frameworks */,
+				C1A9AD3D18867450C1A0E1D9 /* Headers */,
+				16502CFB62E30F020F0EFAD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-KVNProgress";
+			productName = "Pods-KVNProgress";
+			productReference = 0F7994379B5D0472DA044A3F /* KVNProgress.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E52E1CBC05DB2CD0EF343D2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 47D50FB6DD5601ED3740ECB2 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2DE5C114DBFA00D620E5FC30;
+			productRefGroup = 7BFDF78C013AFB895F728BBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9539DA7EB81CFFB14787A28 /* Pods */,
+				DCBF6D228A702F7A74735974 /* Pods-KVNProgress */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16502CFB62E30F020F0EFAD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88FF3DE5FCDCE0F7BDD80F7E /* KVNProgressView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72B4741A79D5D8BC1701FAFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23537BFC546CB77CC526328B /* KVNProgress.m in Sources */,
+				225093AB8004EDA68B8CE563 /* KVNProgressConfiguration.m in Sources */,
+				493130BD7DDE505653EED35E /* Pods-KVNProgress-dummy.m in Sources */,
+				9AD0F005EF73A81E00BC17F5 /* UIColor+KVNContrast.m in Sources */,
+				29CA19FD47A2939A22B6DE20 /* UIImage+KVNEmpty.m in Sources */,
+				FA10045A47421CADD3D9FD85 /* UIImage+KVNImageEffects.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CDE1E9E2AEE69F213FD6936 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				458EE35A40C882812D8BBF31 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A2C693D39A7D888BB48C8DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KVNProgress";
+			target = DCBF6D228A702F7A74735974 /* Pods-KVNProgress */;
+			targetProxy = F73343730E0D1D88E14F416C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DBEF6C9D5935A02ADD4BE4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F07BE3B3C85E8AFD56DAD20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F97DAA58CD335B1E6D840A35 /* Pods.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		60FE2F9D43C93E2ADCEA6BD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C99ED7EF09277E6D4C97557D /* Pods-KVNProgress-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-KVNProgress/Pods-KVNProgress-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-KVNProgress/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-KVNProgress/Pods-KVNProgress.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = KVNProgress;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6440088864EC77E7577CE123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C99ED7EF09277E6D4C97557D /* Pods-KVNProgress-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-KVNProgress/Pods-KVNProgress-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-KVNProgress/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-KVNProgress/Pods-KVNProgress.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = KVNProgress;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C34E70CF941C77E5DB1E71DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9292AFC100C562359558ED02 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D9CEABBC2CC5C85088309DE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		151C25FFE7075028723D9B2E /* Build configuration list for PBXNativeTarget "Pods-KVNProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6440088864EC77E7577CE123 /* Debug */,
+				60FE2F9D43C93E2ADCEA6BD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47D50FB6DD5601ED3740ECB2 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9CEABBC2CC5C85088309DE5 /* Debug */,
+				1DBEF6C9D5935A02ADD4BE4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C331845E11DDC386F009AB0 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C34E70CF941C77E5DB1E71DE /* Debug */,
+				4F07BE3B3C85E8AFD56DAD20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E52E1CBC05DB2CD0EF343D2A /* Project object */;
+}
