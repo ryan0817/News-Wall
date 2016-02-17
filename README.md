@@ -1,2 +1,2 @@
-# News-Wall
+# News Wall
 
