@@ -53,7 +53,6 @@ News Wall將可訂閱的網站設定資料儲存在iCloud上，
 (資料來源：http://buzzorange.com/techorange/2015/06/25/palantir/)
 
 
-APP Demo
 ![alt tag](https://github.com/ryan0817/News-Wall/blob/master/screenshot/f.gif)
 
 
