@@ -21,7 +21,6 @@ class NewsMainTableViewController: UITableViewController, ADBannerViewDelegate {
     
     var addAlert:UIAlertView?
     
-    // 加油！ 賺錢就靠你了!
     @IBOutlet var bannerView:ADBannerView?
     
     override func viewDidLoad(){
@@ -216,44 +215,12 @@ class NewsMainTableViewController: UITableViewController, ADBannerViewDelegate {
             
         }
         
-        // 清空News List(newsList)再重新執行取得新聞資料
         self.newsList = []
         queryOperation.recordFetchedBlock = { (record:CKRecord!) -> Void in
             if let webSiteRecord = record {
                 // 從Kimono取得新聞資訊
                 var api = NewsApi()
                 var websiteUrl = webSiteRecord.objectForKey("apiurl") as! String
-//                api.getNewsList(websiteUrl, completionHandler: {json, error -> Void in
-//                    if error != nil {
-//                        dispatch_async(dispatch_get_main_queue(), {
-//                            let alert = UIAlertView()
-//                            alert.title = "Network issue"
-//                            alert.message = "Get list faild, maybe check your network.)"
-//                            alert.addButtonWithTitle("ok")
-//                            alert.delegate = self
-//                            alert.show()
-//                            println(error)
-//                        })
-//                    }
-//                    if (json != nil) {
-//                        for (key:String, newsJson:JSON) in json["results"]["News"]{
-//                            let webSiteName = json["name"]
-//                            // 加入News List,依序顯示
-//                            self.newsList.append(News(img: newsJson["Img"]["src"].stringValue, subject: newsJson["Subject"]["text"].string!, url: newsJson["Subject"]["href"].string!,webSiteName: webSiteName.string!))
-//                        }
-//                        
-//                        // 停止等待動畫
-//                        if self.spinner.isAnimating() {
-//                            dispatch_async(dispatch_get_main_queue(), {
-//                                self.spinner.stopAnimating()
-//                            })
-//                        }
-//                        
-//                        dispatch_async(dispatch_get_main_queue(), {
-//                            self.tableView!.reloadData()
-//                        })
-//                    }
-//                })
             }
         }
         

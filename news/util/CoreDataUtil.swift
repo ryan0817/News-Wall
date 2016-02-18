@@ -83,7 +83,6 @@ class CoreDataUtil: NSFetchedResultsControllerDelegate{
                 return false
             }
             if newsCD.url == url{
-                // 若找到則返回true
                 return true
             }
         }

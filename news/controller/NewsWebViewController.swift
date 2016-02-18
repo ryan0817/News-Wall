@@ -13,7 +13,6 @@ class NewsWebViewController:UIViewController, ADBannerViewDelegate{
     
     @IBOutlet var webView:UIWebView!
     
-    // 加油！ 賺錢就靠你了!!
         @IBOutlet var bannerView:ADBannerView?
     
     var urlStr:String?

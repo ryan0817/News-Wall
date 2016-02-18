@@ -125,8 +125,6 @@ class NewsOrderTableViewController: UITableViewController, NewsOrderCellDelegate
         
     }
     
-    // 當訂閱動作被執行時,會在NewsOrderCell中呼叫Protocol方法
-    // 但真正在以下被實作,類似於java的abstract class
     func update(){
         orderList = CoreDataUtil().getOrderList()
     }
